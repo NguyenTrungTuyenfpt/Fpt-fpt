@@ -1,0 +1,86 @@
+
+
+
+
+.info-sp{
+    /* margin-left: 20px; */
+    height: 350px;
+    width: 500px;
+    border-radius: 5px;
+    background-color: #e5e5e5;
+    margin-bottom: 20px;
+}
+
+.info-sp .title{
+    position: relative;
+    height: 50px;
+    line-height: 50px;
+    width: 250px;
+}
+h2{
+    height: 50px;
+    line-height: 50px;
+    color: rgb(128, 72, 23);
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.info-sp .thongtin{
+    padding: 25px 0;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.price{
+    height:200px;
+    border: 1px solid #e5e5e5;
+    background-color: #fcfcfc;
+    margin-top: 10px;
+    padding: 5px 20px;
+}
+
+.price .detail{
+    margin-top: 25px;
+    position: relative;
+}
+
+
+.detail p{
+    line-height: 25px;
+    font-size: 16px;
+    color: #8e8989;
+    font-weight: 500;
+}
+
+.detail p b{
+    color: black;
+}
+.control{
+    position: absolute;
+    top: 25px;
+    right: 0px;
+}
+
+.button{
+    width: 100px;
+    height:45px ;
+    border: 2px solid #e5e5e5;
+    display: inline-block;
+    text-align: center;
+    line-height: 45px;
+    border-radius: 3px ;
+}
+
+.price .control input.so{
+    width: 80px;
+    padding-left: 8px;
+}
+
+.button a{
+    text-decoration: none;
+    font-weight: 500;
+    color: black;
+}
+ .button:hover{
+    background-color: rgb(154, 149, 149);
+    color: #fff;
+    border: 3px solid rgb(228, 228, 228);
+ }
